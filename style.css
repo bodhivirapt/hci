@@ -1,0 +1,582 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+/* Remove weird scaling */
+html,body {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+/* Font Configuration */
+p  {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+
+}
+
+li {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+}
+
+h1  {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 72px;
+  font-weight: bold;
+}
+
+h2  {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 39px;
+  line-height: 145%;
+
+}
+
+h3  {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 31px;
+}
+
+h4  {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 400px;
+  line-height: 145%;
+}
+
+h5  {
+  font-family: 'Plus jakarta Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 165%;
+
+}
+
+a {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 145%;
+  color: #000;
+  padding: 8px 20px 8px 20px;
+  background-color: hsla(0, 0%, 0%, 0.05);;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+a:hover{
+ color: #5D6D7E;
+
+}
+
+
+
+.standardimages{
+  width: 100%;
+  height: auto;
+}
+
+.itemIntro{
+  padding-right: 50px;
+}
+
+.itemHome {
+color: #FFFFFF;
+}
+
+
+.copyright {
+  width: auto;
+  margin: auto;
+  text-align: center;
+
+}
+
+
+/* Background Color */
+.background{
+  background-color: #FFF ;
+}
+
+.backgroundProjects{
+  background-color: #FFF ;
+}
+
+
+/* My Photo */
+.myimage{
+  width: 350px;
+  height: auto;
+  padding-left: px;
+}
+
+
+/* Main Title for Projects */
+.fullSection{
+  width: auto;
+  height:200px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF ;
+  text-align: center;
+}
+
+/* Main Title for Index */
+.fullSectionindex{
+  width: 70%;
+  height:600px;
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFF ;
+  background-image: url("home/background1.jpg");
+  background-size: 100%;
+  background-position: top;
+  margin-right:auto;
+  margin-left: auto;
+
+
+}
+
+/* Main Title for Index */
+.fullSection2{
+  width: auto;
+  background-color: #FAFAFA ;
+  padding: 30px 30px 30px 30px;
+  font-size: 11px;
+}
+
+/* Want to know more seperator */
+.scrolldown{
+  width: auto;
+  color: #1B2631;
+  background-color: #F5F5F5 ;
+  padding: 30px 30px 30px 30px;
+  font-size: 11px;
+  text-align: center;
+}
+
+/* Wrapper for all pages */
+.wrapper{
+  width: 70%;
+  background-color: #FFFFFF;
+  margin-right:auto;
+  margin-left: auto;
+  padding: 50px 50px 30px 50px;
+}
+
+/* Container for UI index */
+.containerUI{
+  width: 100%;
+  height:300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("home/ui.png");
+  background-size: 100%;
+  box-shadow: 7px 7px 10px #727272;
+}
+
+.containerUI:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Container for Brand index */
+.containerBrand{
+  width: 100%;
+  height:300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("home/brand.png");
+  background-size: 100%;
+  box-shadow: 5px 7px 10px #727272;
+
+}
+
+.containerBrand:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Container for Photography index */
+.containerPhoto{
+  width: 100%;
+  height:300px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-image: url("home/photography.png");
+  background-size: 100%;
+  box-shadow: 5px 7px 10px #727272;
+
+}
+
+.containerPhoto:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+/* Delete Hyperlink Decoration */
+.buttonhome{
+  text-decoration: none;
+}
+
+
+
+/* Navigation */
+.navigation {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:center;
+  align-items: left;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  margin: auto;
+  width: auto;
+  //padding: 20px;
+
+  text-align: center;
+  background-color: #FAFAFA;
+  color: #31313;
+}
+
+
+.navigation a {
+  background-color: inherit;
+  padding: 20px 20px 20px 20px;
+}
+
+.navigation a:link {
+  color: #313131;
+  text-decoration: none;
+}
+
+.navigation a:visited{
+  color: #313131;
+  text-decoration: none;
+}
+
+.navigation a:hover{
+ color: #5D6D7E;
+
+}
+
+
+/* linkedin and email link for index and about page */
+.linkedin{
+  color: #85929E;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.linkedin:hover {
+  color: #283747  ;
+  text-decoration: none;
+}
+
+
+
+
+/* Button for to portfolio CSS */
+.btntemp {
+  border: none;
+  background-color: #34495E ;
+  color: #FFFFFF;
+  padding: 20px 50px 20px 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 1.0;
+  border-radius: 35px;
+}
+
+.btntemp:hover {
+  border: none;
+  background-color: #5D6D7E;
+  color: #FFFFFF;
+  cursor: grab;
+  opacity: 0.8;
+}
+
+.btnbox{
+  padding: 50px 0px 80px 0px;
+}
+
+
+
+/* portfolio button */
+.portfolio {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+ background-color: #EBEDEF ;
+}
+
+
+/* ppib link in about section */
+.ppib a {
+  color: #34495E ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+/* raffles link in about section */
+.raffles a {
+  color: #34495E ;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.experience{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.education{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.pageTitle{
+  text-align: center;
+  padding: 0px 100px 20px 100px;
+}
+
+.pageBody{
+  text-align: left;
+  padding: 0px 100px 20px 100px;
+}
+
+/* index page container and Projects */
+.mainProjectContainer{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+/* project container for UX and Brand */
+.projectContainer{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  background-color: #fff;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectContainer:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* inversed project container for UX and Brand */
+.projectContainer2{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  background-color: #fff;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.projectContainer2:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+
+/* Photograph Section Container*/
+.photoContainer1{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  background-color: #fff;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Photograph Section Container*/
+.photoContainer2{
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  background-color: #fff;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container in detailed project */
+.projectDetailContainer{
+  padding: 50px 50px 50px 50px;
+
+  display: flex;
+  background-color: #fff;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectPhoto img{
+ width: 500px;
+ height: auto;
+ box-shadow: 5px 5px 10px #EEE;
+
+}
+
+.gift4uPhoto img{
+ width: 100%;
+ height: auto;
+ box-shadow: 5px 5px 10px #EEE;
+
+}
+
+.itemProject{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.getInTouch{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.projectLink{
+  text-decoration: none;
+  color: black;
+}
+
+/* If Screen becomes too small */
+@media (max-width: 1300px) {
+
+
+
+  .navigation img {
+    vertical-align: middle;
+    padding-right: 0px;
+     width: auto;
+    height: 40px;
+
+  }
+
+  section.fullSectionindex{
+    height: 400px;
+  }
+/* Increased font size*/
+  p {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.25rem;
+  }
+  div.navigation{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  /* Increase section size for index*/
+  section.fullSectionindex{
+    height: 800px;
+    width: auto;
+    background-size: auto;
+    flex-flow: column-reverse;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+/* Got rid of my image if shrunk*/
+ img.myimage{
+  display: none;}
+
+  /* Adjusting flex-flows */
+  div.projectContainer{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    background-color: #fff;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  div.projectContainer2{
+    padding: 5px 50px 50px 50px;
+    display: flex;
+    background-color: #fff;
+    flex-flow: column-reverse nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  div.photoContainer1{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    background-color: #fff;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.itemProject{
+    padding-top: 50px;
+  }
+
+  div.pageBody{
+    text-align: left;
+    padding: 0px 0px 20px 0px;
+  }
+  div.wrapper{
+    width: 90%;
+    background-color: #FFF;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 30px 50px 30px 50px;
+  }
+  div.itemIntro{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+/* If screen becomes too big */
+@media (min-width: 2000px) {
+
+  section.fullSectionindex{
+    height: 400px;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1.5rem;
+  }
+  div.wrapper{
+    width: 60%;
+    background-color: #FFF;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 30px 50px 30px 50px;
+  }
+
+}
